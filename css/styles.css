@@ -28,6 +28,7 @@
     align-items: center;
     row-gap: 45px;
     font-size: 25px;
+    padding: px;
 }
 
 .linkmenu {
@@ -41,7 +42,7 @@
     border: #808080;
     border-radius: 5px;
     padding: 5px;
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: all 0.5s;
 }
 
