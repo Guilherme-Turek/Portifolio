@@ -1,45 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+  </head>
+  <body>
 
-</head>
-<body>
+    <main class="container-fluid">
+      <div class="row vh-100">
+        <div class="info col-12 d-flex flex-column pt-3 col-md-3 d-md-flex flex-md-column align-items-md-center justify-content-md-center">
+          <img src="./assets/img/eu.jpeg" class="myphoto rounded-circle align-self-center">
+          <nav class="navbar justify-content-around flex-md-column justify-content-md-center">
+            <button class="btn" id="about">
+              Sobre
+            </button>
+            <button class="btn" id="knowledge">
+              Conhecimentos
+            </button>
+            <button class="btn" id="objective">
+              Objetivos
+            </button>
+          </nav>
+        </div>
 
-    <main class="container">
-        <section class="bloco-1">
-            <img class="foto" src="./assets/eu.jpeg" alt="Foto Guilherme">
-            <nav class="menu">
-                <a class="linkmenu" href="./index.html">Sobre</a>
-                <a class="linkmenu" href="./conhecimentos.html">Conhecimentos</a>
-                <a class="linkmenu" href="./objetivos.html">Objetivos</a>
-            </nav>
-        </section>
+        <div class="content about col-12 d-flex flex-column align-items-center justify-content-center pt-5 col-md-9 text-center">
+          <h1>
+            GUILHERME LUIS TUREK FERNANDES
+          </h1>
+          <h4>
+            Boqueirão, Curitiba - PR
+              <a href="mailto:guilherme.turek@gmail.com">
+                GUILHERME.TUREK@GMAIL.COM
+              </a>
+          </h4>
+          <p>
+            Ex-profissional da área de logística, tentando migrar de carreira
+          </p>
+          <p>
+            Estudante de Desenvolvimento Web FullStack
+          </p>
+          <div>
+            <a href="https://github.com/Guilherme-Turek">
+              <i class="bi bi-github icons"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5541991995905&text=Ol%C3%A1%2C%20deixe%20sua%20mensagem!!">
+              <i class="bi bi-whatsapp icons"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/guilherme-luis-078869232/">  
+              <i class="bi bi-linkedin icons"></i>    
+            </a>
+          </div>
+        </div>
+        
+        <div class="content knowledge col-12 d-none flex-column align-items-center justify-content-center pt-5 col-md-9 text-center">
+          <h1>
+              Conhecimentos
+          </h1>
+          <p>
+              Estudante do programa Starter FullStack Web Developer da 
+              <a href="https://www.growdev.com.br/starter">
+                  GrowDev
+              </a>
+          </p>
+          <br>
+          <ul class="text-start d-flex">
+              <div class="mx-5">
+                  <li class="my-3">
+                  <i class="bi bi-filetype-html" style="font-size: 1.3em;"> HTML</i>
+                  </li>
+                  <li class="my-3">
+                      <i class="bi bi-filetype-css" style="font-size: 1.3em;"> CSS</i>
+                  </li>
+                  <li class="my-3">
+                      <i class="bi bi-filetype-js" style="font-size: 1.3em;"> JavaScript</i>
+                  </li>
+              </div>
+              <div class="mx-5">
+                  <li class="my-3">
+                  <i class="bi bi-filetype-tsx" style="font-size: 1.3em;"> TypeScript</i>
+                  </li>
+                  <li class="my-3">
+                      <i class="bi bi-bootstrap" style="font-size: 1.3em;"> Bootstrap</i>
+                  </li>
+              </div>
+          </ul>
+      </div>
 
-        <section class="bloco-2">
-            <div class="conteudo">
-                <h1 class="nome">GUILHERME LUIS TUREK FERNANDES</h1>
-                <h4>Rua Padre Dehon, 3386. Curitiba - PR
-                    <a class="email" href="mailto:guilherme.turek@gmail.com">GUILHERME.TUREK@GMAIL.COM</a>
-                </h4>
-                <p>Ex-profissional da área de logística, tentando migrar de carreira</p>
-                <p>Estudante de Desenvolvimento Web FullStack</p>
-            </div>
-            <div class="icons">
-                <a class="icons2" target="_blank" href="https://www.linkedin.com/in/guilherme-luis-078869232/">
-                    <img src="./assets/linkedin.png" alt="linkedin"></a>
-                <a class="icons2" target="_blank" href="https://api.whatsapp.com/send?phone=5541991995905&text=Ol%C3%A1%2C%20deixe%20sua%20mensagem!!">
-                    <img src="./assets/whatsapp.png" alt="whatsapp"></a>
-                <a class="icons2" target="_blank" href="https://github.com/Guilherme-Turek">
-                    <img src="./assets/github.png" alt="github"></a>
-            </div>
-        </section>
+      <div class="content objective col-12 d-none flex-column align-items-center justify-content-center pt-5 col-md-9 text-center">
+        <h1>
+            Objetivos
+        </h1>
+        <p>
+            <ul class="text-start">
+                <li class="my-3">
+                    Concluir o programa FullStack
+                </li>
+                <li class="my-3">
+                    Entrar no mercado de trabalho com desenvolvedor web
+                </li>
+                <li class="my-3">
+                    Aprender desenvolvimento para mobile
+                </li>
+                <li class="my-3">
+                    Me desenvolver nas linguagens utilizadas para desenvolvimento
+                </li>
+            </ul>
+        </p>
+    </div>
+      </div>
     </main>
 
-</body>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>

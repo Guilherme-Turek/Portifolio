@@ -1,0 +1,57 @@
+.myphoto {
+    width: 200px;
+}
+
+.info{
+    background: linear-gradient(to bottom right, black, grey);
+}
+
+button{
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    color: black !important;
+    font-size: 18pt !important;
+    cursor: pointer;
+    border: none !important;
+}
+
+button:hover{
+    text-shadow: 5px 3px 3px black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icons {
+    margin: 0 20px;
+    cursor:pointer;
+    color: cornflowerblue;
+    font-size: 3rem
+}
+
+.content{
+    background: linear-gradient(to bottom left, black, grey);
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+@media screen and (max-width: 720px){
+    .info{
+        height: 30vh;
+        background: linear-gradient(to bottom, black, grey);
+    }
+
+    a:hover{
+        color: black;
+        text-shadow: 2px 3px 3px black;
+    }
+
+    .content{
+        height: 70vh;
+        background: linear-gradient(to top, black, grey);
+    }
+}
